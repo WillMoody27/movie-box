@@ -8,14 +8,6 @@ const API_URL = "http://www.omdbapi.com/?apikey=532aa81e";
 
 const App = () => {
   // Static Object Movie
-  // const movie1 = {
-  //   Title: "The Amazing Spider-Man",
-  //   Year: "2012",
-  //   imdbID: "tt0948470",
-  //   Type: "movie",
-  //   Poster:
-  //     "https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_SX300.jpg",
-  // };
 
   // Set default state of movies to empty array
   const [movies, setMovies] = useState([]);
